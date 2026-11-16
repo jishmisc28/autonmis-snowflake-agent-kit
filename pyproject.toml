@@ -23,5 +23,5 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/autonmis/autonmis-snowflake-agent-kit"
+"Homepage" = "https://github.com/jishmisc28/autonmis-snowflake-agent-kit"
 "Company" = "https://autonmis.com"

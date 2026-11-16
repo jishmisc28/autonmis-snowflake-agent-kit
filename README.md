@@ -89,7 +89,7 @@ Where $\alpha = 0.10$ (90% cache discount). For a typical 10-turn financial data
 ### Installation
 
 ```bash
-git clone https://github.com/autonmis/autonmis-snowflake-agent-kit.git
+git clone https://github.com/jishmisc28/autonmis-snowflake-agent-kit.git
 cd autonmis-snowflake-agent-kit
 pip install -r requirements.txt
 ```
