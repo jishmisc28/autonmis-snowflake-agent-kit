@@ -76,11 +76,6 @@ Directly ported from Autonmis's production TypeScript executor (`snowflakeDirect
 ### B. Prompt Cache Stabilization (`caching_wrapper.py`)
 - **Byte-Exact Canonical Sorting:** Automatically sorts tables and columns canonically to guarantee identical prefix hashes regardless of metadata retrieval order.
 - **Volatile Tail Isolation:** Dynamically captures execution context (ephemeral UUIDs, millisecond timestamps, error retry payloads) and places them strictly into the un-cached suffix.
-- **Cost Amortization Tracking:** Formulates token reduction metrics across multi-turn reasoning loops:
-
-$$\text{Savings} = 1 - \frac{\text{Prefix}_{\text{cold}} + (k - 1) \cdot (\text{Prefix}_{\text{cached}} \times \alpha) + \sum \text{Suffix}_i}{k \cdot (\text{Prefix} + \text{Suffix})}$$
-
-Where $\alpha = 0.10$ (90% cache discount). For a typical 10-turn financial data triage loop, token expenditure drops by **over 65%**.
 
 ---
 
