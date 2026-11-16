@@ -140,17 +140,6 @@ Ran 7 tests in 0.001s
 
 OK
 ```
-
----
-
-## 6. Author & Maintainer
-
-* **Abhranshu Bagchi** — Founder & CEO, Autonmis (Misoratechnologies Pvt Ltd)
-  * Ex-AVP Data Engineering, Paytm (Architected ₹3,500Cr/month multi-bank financial ledger reconciliation engine)
-  * Creator of [Hearth (`hearth-ai`)](https://pypi.org/project/hearth-ai/)
-  * Email: `abhranshu.bagchi@gmail.com`
-  * LinkedIn: [linkedin.com/in/abhranshu-bagchi](https://www.linkedin.com/in/abhranshu-bagchi)
-
 ---
 
 ## 7. License
